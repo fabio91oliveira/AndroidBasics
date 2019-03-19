@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Basics</string>
+
+    <string name="activity_a_open_activity_b">Open Activity B</string>
+    <string name="activity_b_close_activity">Close Activity</string>
+    <string name="activity_b_open_dialog">Open Dialog</string>
+</resources>
