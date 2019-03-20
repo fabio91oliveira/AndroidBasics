@@ -1,6 +1,7 @@
-package me.oliveira.fabio.androidbasics
+package me.oliveira.fabio.androidbasics.activity
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -10,8 +11,14 @@ open class BaseActivity : AppCompatActivity() {
     private lateinit var activityName: String
 
     fun setActivityName(activity: Activity) {
-        this.activityName = activity.localClassName
+        this.activityName = activity.javaClass.simpleName
         supportActionBar?.title = this.activityName
+    }
+
+    fun <T> openActivity(clazz: Class<T>) {
+        Intent(this, clazz).apply {
+            startActivity(this)
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

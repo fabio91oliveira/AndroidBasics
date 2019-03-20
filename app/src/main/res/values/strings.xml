@@ -2,6 +2,17 @@
     <string name="app_name">Android Basics</string>
 
     <string name="activity_a_open_activity_b">Open Activity B</string>
+    <string name="activity_a_open_activity_c">Open Activity C with Fragments</string>
+    <string name="activity_a_open_fragment_a">Open Fragment A</string>
+    <string name="activity_a_open_fragment_b">Open Fragment B</string>
+    <string name="activity_a_open_activity_with_service">Open Activity with Service</string>
     <string name="activity_b_close_activity">Close Activity</string>
-    <string name="activity_b_open_dialog">Open Dialog</string>
+
+    <string name="activity_service_start_service">Start Service</string>
+    <string name="activity_service_stop_service">Stop Service</string>
+    <string name="activity_service_bind_service">Bind Service</string>
+    <string name="activity_service_unbind_service">Unbind Service</string>
+    <string name="activity_service_insert_score">Insert Score</string>
+
+    <string name="fragment_a_title">Fragment A</string>
 </resources>
