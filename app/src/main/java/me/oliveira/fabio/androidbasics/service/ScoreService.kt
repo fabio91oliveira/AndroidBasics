@@ -45,11 +45,6 @@ class ScoreService : Service() {
         return super.onStartCommand(intent, flags, startId)
     }
 
-    override fun onStart(intent: Intent?, startId: Int) {
-        super.onStart(intent, startId)
-        Toast.makeText(this, "Service has been started", Toast.LENGTH_LONG).show()
-    }
-
     override fun onDestroy() {
         super.onDestroy()
         Toast.makeText(this, "Service has been destroyed", Toast.LENGTH_LONG).show()

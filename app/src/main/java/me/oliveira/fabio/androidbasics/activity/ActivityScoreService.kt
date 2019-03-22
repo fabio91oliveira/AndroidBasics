@@ -49,7 +49,8 @@ class ActivityScoreService : BaseActivity() {
         }
         btnBindService.setOnClickListener {
             Intent(this, ScoreService::class.java).apply {
-                bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE)
+                startService(this)
+                bindService(this, serviceConnection, Context.BIND_AUTO_CREATE)
             }
         }
         btnUnbindService.setOnClickListener { unbindService(serviceConnection) }

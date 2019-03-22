@@ -11,7 +11,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_twelve"
-            android:hint="@string/activity_service_insert_score"
+            android:hint="@string/activity_service_intent_service_insert_score"
             android:singleLine="true"
             android:maxLines="1"
             android:imeOptions="actionDone"

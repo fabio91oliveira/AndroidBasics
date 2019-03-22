@@ -19,8 +19,17 @@
         <activity android:name=".activity.ActivityB"/>
         <activity android:name=".activity.ActivityC"/>
         <activity android:name=".activity.ActivityScoreService"/>
+        <activity android:name=".activity.ActivityScoreIntentService"/>
+        <activity android:name=".activity.ActivityBroadCastReceiver"/>
 
         <service android:name=".service.ScoreService"/>
+        <service android:name=".intentservice.ScoreIntentService"/>
+
+        <receiver android:name=".broadcastreceiver.PowerBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

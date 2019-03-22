@@ -6,13 +6,20 @@
     <string name="activity_a_open_fragment_a">Open Fragment A</string>
     <string name="activity_a_open_fragment_b">Open Fragment B</string>
     <string name="activity_a_open_activity_with_service">Open Activity with Service</string>
+    <string name="activity_a_open_activity_with_intent_service">Open Activity with Intent Service</string>
     <string name="activity_b_close_activity">Close Activity</string>
 
     <string name="activity_service_start_service">Start Service</string>
     <string name="activity_service_stop_service">Stop Service</string>
     <string name="activity_service_bind_service">Bind Service</string>
     <string name="activity_service_unbind_service">Unbind Service</string>
-    <string name="activity_service_insert_score">Insert Score</string>
+
+    <string name="activity_service_intent_service_insert_score">Insert Score</string>
+
+    <string name="activity_intent_service_start_intent_service">Start Intent Service</string>
 
     <string name="fragment_a_title">Fragment A</string>
+
+    <string name="broadcast_receiver_title">Broadcast Receiver</string>
+    <string name="activity_a_open_power_broadcast_receiver_title">Open Power Broadcast Receiver</string>
 </resources>
